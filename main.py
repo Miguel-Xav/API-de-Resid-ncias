@@ -101,5 +101,7 @@ def menu_principal():
             print ("Saindo...")
             time.sleep(3)
             break               
+        else:
+            print("Digite uma opção válida")
 
 menu_principal()
